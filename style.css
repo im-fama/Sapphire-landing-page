@@ -89,3 +89,19 @@ footer {
   margin-top: 40px;
   color: #515050;
 }
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form {
+    gap: 10px;
+  }
+}
